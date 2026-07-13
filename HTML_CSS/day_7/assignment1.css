@@ -1,5 +1,10 @@
 input{
-    background-color: darkred;
+    background-color: rgba(0, 0, 255, 0.597);
     color:white;
     padding: 10px;
+    display: block;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin: auto
 }
