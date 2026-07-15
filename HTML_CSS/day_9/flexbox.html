@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+
+        body{
+            background-color: lightgrey;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* align-items: center;
+            justify-content: center; */
+            gap: 60px;
+            padding: 5px;
+
+            height: 50px;
+            border: 5px double red;
+            border-radius: 3px;
+            padding: 5px;
+            
+        }
+
+        .i1{
+            color: black;
+            background-color: bisque;
+            height: 30px;
+            border: 2px solid;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        .i2{
+            color: black;
+            background-color: blueviolet;
+            height: 30px;
+            border: 2px solid;
+            margin-left: 1px;
+            padding: 2px;
+        }
+
+        .i3{
+            color: black;
+            background-color: tomato;
+            height: 30px;
+            border: 2px solid;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        .i4{
+            color: black;
+            background-color: cyan;
+            height: 30px;
+            border: 2px solid;
+            margin: 2px;
+            padding: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="i1">Item1</div>
+        <div class="i2">Item2</div>
+        <div class="i3">Item3</div>
+        <div class="i4">Item4</div>
+    </div>
+</body>
+</html>
