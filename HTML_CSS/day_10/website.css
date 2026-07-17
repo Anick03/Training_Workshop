@@ -113,7 +113,8 @@ main{
     height: 569px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 5px;
+    font-size: 18px;
 }
 
 /* FOOTER */
