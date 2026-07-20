@@ -113,9 +113,28 @@ main{
     height: 569px;
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 20px;
     font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+main p,h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+} 
+
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top : 20px;
+    font-size: 21px;
+    font-weight: 540;
+}
+
 
 /* FOOTER */
 footer{
