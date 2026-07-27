@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        /* Decendant Combinator */
+        div p{
+            color: goldenrod;
+        }
+
+        /* Child Combinator */
+        div > p{
+            color: aqua;
+        }
+
+        /* General Sibling Combinator */
+        div ~ p{
+            color: red;
+        }
+
+        /* Next Subling Combinator */
+        div + p {
+            color: yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p> First Paragraph </p>
+        <span> <p> Second Paragraph </p> </span>
+        <p> Third Paragraph </p>
+    </div>
+    <p> Fourth Paragraph </p>
+    <p> Fifth Paragraph </p>
+    <p> Sixth Paragraph </p>
+</body>
+</html>
