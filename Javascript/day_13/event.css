@@ -1,0 +1,38 @@
+body {
+    color: black;
+    background-color: lightcyan;
+}
+
+button {
+    color: aqua;
+    background-color: black;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(98, 230, 230, 0.821);
+    color: black;
+    font-weight: bolder;
+    font-size: 17px;
+    transition: all 0.4s ease;
+}
+
+input {
+    color: aqua;
+    background-color: black;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input:hover {
+    font-weight: bolder;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
