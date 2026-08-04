@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="event.js"></script>
+    <link rel="stylesheet" href="event.css">
+</head>
+
+<body>
+    <!-- click event -->
+    <button onclick="showmessage()">Click Me!!</button>
+    <!-- double click event -->
+    <button ondblclick="doubleClick()">Double Click Me!!</button>
+    <!-- mouseover event -->
+    <button onmouseover="mouseOver()">Mouse Over Me!!</button>
+    <!-- mouse out event -->
+    <button onmouseout="mouseOut()">Mouse Out Me!!</button>
+    <!-- mousedown event -->
+    <button onmousedown="mouseDown()">Mouse Down Me!!</button>
+    <!-- mouseup event -->
+    <button onmouseup="mouseUp()">Mouse Up Me!!</button>
+    <br>
+    <!-- onkeydown event -->
+    <input type="text" onkeydown="keyDown()" placeholder="Press Any Key">
+    <br>
+    <!-- onkeyup event -->
+    <input type="text" onkeyup="keyUp()" placeholder="Release Any Key">
+    <br>
+    <!-- submit event -->
+    <button onclick="changeColor()">Change Color</button>
+
+    <form onsubmit="return submitForm()">
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
