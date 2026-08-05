@@ -7,4 +7,5 @@ This is the repository where I am learning web dev in the workshop hosted by HDC
 
 # Learning Python
 This is the repository where I am learning python by myself.
+
 ## 1. Basic Python
