@@ -1,9 +1,8 @@
-// Grab the form and message elements
 const form = document.getElementById("appointmentForm");
 const message = document.getElementById("formMessage");
 
 form.addEventListener("submit", function (e) {
-  e.preventDefault(); // stop the page from refreshing
+  e.preventDefault();
 
   // Get values from the form
   const owner = document.getElementById("petOwner").value;
@@ -15,6 +14,6 @@ form.addEventListener("submit", function (e) {
   message.textContent = `Thank you, ${owner}! Your appointment for ${pet} (${service}) is booked on ${date}.`;
   message.style.color = "green";
 
-  // Clear the form fields
+  // Clear the form filled
   form.reset();
 });
