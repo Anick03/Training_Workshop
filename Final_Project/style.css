@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset & Declaration */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +11,7 @@ body {
   background: #c6ac97;
   color: #ffffff;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
@@ -21,6 +22,7 @@ h1, h2, h3 {
 .navbar {
   position: sticky;
   top: 0;
+  z-index: 100;
   background: #2f3e46;
   display: flex;
   justify-content: space-between;
@@ -55,7 +57,7 @@ h1, h2, h3 {
 /* Home Section */
 .home-section {
   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
-    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW1xkbYOuF3lMibNteKG364YLhjRv2XDuqxBNVsIFKB9YDOae8XrcsWQ6t&s=10') center/cover no-repeat;
+  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW1xkbYOuF3lMibNteKG364YLhjRv2XDuqxBNVsIFKB9YDOae8XrcsWQ6t&s=10') center/cover no-repeat;
   padding: 90px 20px;
   display: flex;
   justify-content: center;
@@ -291,14 +293,14 @@ footer p {
     flex-direction: column;
     gap: 10px;
   }
-
+  
   .about {
     flex-direction: column;
     text-align: center;
     gap: 25px;
     padding: 40px 20px;
   }
-
+  
   .about img {
     width: 100%;
     max-width: 320px;
